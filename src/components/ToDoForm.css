@@ -1,0 +1,36 @@
+.new-note{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+input{
+    width:200px;
+}
+
+.new-note-actions{
+    padding-top: 10px;
+    display: flex;
+}
+
+form{
+    width:min-content;
+    background-color: lightyellow;
+    padding: 10px;
+    border: solid 2px black ;
+    border-radius: 4px;
+    height:min-content;
+}
+
+button{
+    margin-left: auto;
+}
+
+.submit-note:hover{
+    width:80px;
+    background-color: grey;
+    cursor: pointer;
+    border:2px solid black;
+    border-radius: 4px;
+    color:white;
+}

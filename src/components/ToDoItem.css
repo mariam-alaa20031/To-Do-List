@@ -1,0 +1,44 @@
+.to-do-item{
+    display: flex;
+    width:400px;
+    flex-direction: column;
+    border-style: solid;
+    border-radius: 6px;
+    border-color: black;
+    padding: 8px;
+    background-color: beige;
+    margin-bottom: 10px;
+}
+
+
+.date{
+    font-size: 12px;
+    margin-left: auto;
+}
+.action-list{
+    margin-left:auto;
+
+}
+.done,.delete{
+    width:30px;
+    align-items: center;
+
+}
+.done{
+    color:green;
+}
+
+.delete{
+    margin-left:5px
+}
+
+.description{
+    text-align: center;
+}
+button:hover{
+    width:35px;
+    background-color: grey;
+    cursor: pointer;
+    border:2px solid black;
+    border-radius: 4px;
+}
